@@ -8,4 +8,5 @@
 2. Go to [Azure Notebooks](https://notebooks.azure.com), Sign in using Azure account.
 3. Go to My Projects -> New Project.(you can skip 3-4 if you have pretrained model)
 4. Create a new Notebook file to train your model.
+5. Go to Azure portal, existing-workspace -> compute -> compute clusters -> new
 5. In same Notebook, create a new AKS cluster and deploy model to it.
