@@ -15,6 +15,7 @@ Quick disclaimer: At the time of writing, I am currently an employee of Intech P
 Resources:
 
 https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service
+
 https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-existing-model
-https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-existing-model
+
 https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.webservice.webservice(class)?view=azure-ml-py#deploy-from-model-workspace--name--models--image-config--deployment-config-none--deployment-target-none--overwrite-false-
