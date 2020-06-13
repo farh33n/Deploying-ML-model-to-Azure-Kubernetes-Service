@@ -6,10 +6,9 @@
 ### Steps to follow:
 1. Create a workspace [here is how](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace#create-a-workspace).(skip this step if you already have created a workspace)
 2. Go to [Azure Notebooks](https://notebooks.azure.com), Sign in using Azure account.
-3. Go to My Projects -> New Project.(you can skip 3-4 if you have a registered model in your workspace)
-4. Create a new Notebook file to train your model.
-5. Create another notebook file to deploy model t
-5. In same Notebook, create a new AKS cluster and deploy model to it.
+3. Go to My Projects -> New Project.
+4. Create a new Notebook file to train your model.(you can skip this step if you have a registered model in your workspace)
+5. In another Notebook, create a new AKS cluster and deploy model to it.
 
 Quick disclaimer: At the time of writing, I am currently an employee of Intech Process Automation.
 
