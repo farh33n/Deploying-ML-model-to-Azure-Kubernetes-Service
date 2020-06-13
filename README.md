@@ -10,3 +10,5 @@
 4. Create a new Notebook file to train your model.
 5. Go to Azure portal, existing-workspace -> compute -> compute clusters -> new
 5. In same Notebook, create a new AKS cluster and deploy model to it.
+
+Quick disclaimer: At the time of writing, I am currently an employee of Intech Process Automation.
