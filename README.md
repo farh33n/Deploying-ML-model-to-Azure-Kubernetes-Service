@@ -9,7 +9,7 @@
 3. Go to My Projects -> New Project.
 4. Create a new Notebook file to train your model.(you can skip this step if you have a registered model in your workspace)
 5. In another Notebook, create a new AKS cluster and deploy model to it.
-6. To call this web service using scoring uri, get scoring uri, authentication key(primary) using below:
+6. To call this web service using scoring uri, get scoring uri and authentication key(primary) using below:
 ```
 service = Webservice(workspace=ws, name='your-service')
 scoring_uri = service.scoring_uri
