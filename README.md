@@ -15,6 +15,10 @@ service = Webservice(workspace=ws, name='your-service')
 scoring_uri = service.scoring_uri
 primary_key, secondary_key = service.get_keys()
 ```
+You can also call service using curl as below:
+```
+curl -X POST <your scoring uri> --header "Content-Type:application/json" -d '{"data": [ 0.03807591,  0.05068012,  0.06169621,  0.02187235, -0.0442235 , -0.03482076, -0.04340085, -0.00259226,  0.01990842, -0.01764613]}' -H 'authorization: Bearer <your key>'
+```
 
 Quick disclaimer: At the time of writing, I am currently an employee of Intech Process Automation.
 
